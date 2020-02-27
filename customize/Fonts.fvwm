@@ -5,7 +5,8 @@
 SetEnv mtp_font "Bitstream Vera Sans"
 SetEnv mtp_font_size 11
 
-SetEnv mtp_font_title "Bitstream Vera Sans"
+## SetEnv mtp_font_title "Bitstream Vera Sans"
+SetEnv mtp_font_title "文泉驿微米黑,文泉驛微米黑,WenQuanYi Micro Hei:style=Regular"
 SetEnv mtp_font_title_size 11
 
 SetEnv mtp_font_menu "Bitstream Vera Sans"

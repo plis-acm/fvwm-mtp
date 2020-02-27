@@ -6,22 +6,34 @@ DestroyMenu MenuApplication
 AddToMenu MenuApplication
 	+ "net" Popup MenuNet
 	+ "media" Popup MenuMedia
+        + "utils" Popup MenuUtils
 	+ "" Nop
 	+ "fvwmconsole" Module FvwmConsole
+
+DestroyMenu MenuUtils
+AddToMenu MenuUtils
+          + "Emacs" Exec emacs
+          + "appfinder" Exec xfce4-appfinder
+          + "Thunar" Exec Thunar
+	  + "xpdf" Exec xpdf
+	  + "zathura" Exec zathura
+	  + "Calibre" Exec calibre
 
 DestroyMenu MenuNet
 AddToMenu MenuNet
 	+ "firefox" Exec firefox
 	+ "liferea" Exec liferea
-	+ "xchat" Exec xchat
-	+ "pidgin" Exec pidgin
+	+ "hexchat" Exec hexchat
+	# + "pidgin" Exec pidgin
 
 DestroyMenu MenuMedia
 AddToMenu MenuMedia
-	+ "xmms" Exec xmms
-	+ "gimp" Exec gimp
-	+ "blender" Exec blender
+	+ "xmms" Exec gxmms2
+	# + "gimp" Exec gimp
+	# + "blender" Exec blender
 	+ "mplayer" Exec gmplayer
-	+ "wings3d" Exec wings3d
-	+ "inkscape" Exec inkscape
+	+ "VLC" Exec vlc
+	+ "0ad" Exec 0ad
+	# + "wings3d" Exec wings3d
+	# + "inkscape" Exec inkscape
 
