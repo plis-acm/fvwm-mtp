@@ -8,7 +8,8 @@ AddToMenu MenuApplication
 	+ "media" Popup MenuMedia
         + "utils" Popup MenuUtils
 	+ "" Nop
-	+ "fvwmconsole" Module FvwmConsole
+	+ "FvwmConsole" Module FvwmConsole
+        + "FvwmIdent" Module FvwmIdent
 
 DestroyMenu MenuUtils
 AddToMenu MenuUtils
