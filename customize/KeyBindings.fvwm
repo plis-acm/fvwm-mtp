@@ -17,6 +17,14 @@ Key Delete A 4 GotoPage 0 1
 Key End A 4 GotoPage 1 1
 Key Page_Down A 4 GotoPage 2 1
 
+# Move Window across Page
+Key Insert A 4S GotoPage 0 0
+Key Home A 4S GotoPage 1 0
+Key Page_Up A 4S GotoPage 2 0
+Key Delete A 4S GotoPage 0 1
+Key End A 4S GotoPage 1 1
+Key Page_Down A 4S GotoPage 2 1
+
 # Resize
 Key F WTSF1246 4 Maximize 100 100
 Key Return WTSF1246 4 Maximize 100 100
