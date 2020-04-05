@@ -1,10 +1,9 @@
 ##
-## See INSTALL, README and CUSTOMIZE for more information.
+## see INSTALL, README and CUSTOMIZE for more information.
 ##
 
 DestroyFunc Terminal
 AddToFunc Terminal
 	# + I Exec xterm -ls -geometry 141x56+315+72 -sl 5000 -fa '$[mtp_font_mono]' -fs '$[mtp_font_mono_size]'
-	# + I Exec urxvt -ls -geometry 155x46+315+72 -sl 5000
-        + I Exec urxvt -ls -geometry 80x24+72+72 -sl 5000
+	+ I Exec urxvt -ls -geometry 155x46+315+72 -sl 5000
 
