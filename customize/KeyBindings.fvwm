@@ -10,12 +10,21 @@ Key F4 A 4 GotoPage 0 1
 Key F5 A 4 GotoPage 1 1
 Key F6 A 4 GotoPage 2 1
 
+# TODO: to be fixed
 Key Insert A 4 GotoPage 0 0
 Key Home A 4 GotoPage 1 0
 Key Page_Up A 4 GotoPage 2 0
 Key Delete A 4 GotoPage 0 1
 Key End A 4 GotoPage 1 1
 Key Page_Down A 4 GotoPage 2 1
+
+# temp fix: use Ctrl instead
+Key Insert A C GotoPage 0 0
+Key Home A C GotoPage 1 0
+Key Page_Up A C GotoPage 2 0
+Key Delete A C GotoPage 0 1
+Key End A C GotoPage 1 1
+Key Page_Down A C GotoPage 2 1
 
 # Move Window across Page
 Key Insert A 4S MoveToPage 0 0
@@ -24,6 +33,13 @@ Key Page_Up A 4S MoveToPage 2 0
 Key Delete A 4S MoveToPage 0 1
 Key End A 4S MoveToPage 1 1
 Key Page_Down A 4S MoveToPage 2 1
+
+Key Insert A CS MoveToPage 0 0
+Key Home A CS MoveToPage 1 0
+Key Page_Up A CS MoveToPage 2 0
+Key Delete A CS MoveToPage 0 1
+Key End A CS MoveToPage 1 1
+Key Page_Down A CS MoveToPage 2 1
 
 # Resize
 Key F WTSF1246 4 Maximize 100 100
