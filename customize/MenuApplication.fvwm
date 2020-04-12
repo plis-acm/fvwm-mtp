@@ -14,7 +14,7 @@ AddToMenu MenuApplication
 DestroyMenu MenuUtils
 AddToMenu MenuUtils
           + "Emacs" Exec emacs
-          + "appfinder" Exec xfce4-appfinder
+          + "Appfinder" Exec xfce4-appfinder
           + "Thunar" Exec Thunar
 	  + "xpdf" Exec xpdf
 	  + "zathura" Exec zathura
